@@ -1,0 +1,33 @@
+body {
+  font-family: TImes;
+  text-align: center;
+}
+
+h1 {
+  font-family: serif;
+  margin: 30px 30px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(60, 86, 38);
+  border: 3px solid #c36767;
+  background-color: #e9b6b6;
+}
+
+a:hover {
+  background-color: #e9b6b6;
+  color: rgb(60, 86, 38);
+  border-color: rgb(60, 86, 38);
+}
+
+div {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+}
